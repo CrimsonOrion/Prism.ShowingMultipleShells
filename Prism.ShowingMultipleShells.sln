@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.ShowingMultipleShells.UI", "Prism.ShowingMultipleShells.UI\Prism.ShowingMultipleShells.UI.csproj", "{BA1E5014-2D3E-42AA-A89D-57028ADCD98F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B8A11515-CAFE-43C4-8A88-1B63F961C3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{C38AB173-59B9-4AB5-A08C-687B1238C144}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.ShowingMultipleShells.Core", "Prism.ShowingMultipleShells.Core\Prism.ShowingMultipleShells.Core.csproj", "{8247E944-D4D1-414B-85A6-BD521F521430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.ShowingMultipleShells.ModuleA", "Prism.ShowingMultipleShells.ModuleA\Prism.ShowingMultipleShells.ModuleA.csproj", "{5DB7C512-5056-462F-AAE4-CBBDDAF931A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1E5014-2D3E-42AA-A89D-57028ADCD98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1E5014-2D3E-42AA-A89D-57028ADCD98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1E5014-2D3E-42AA-A89D-57028ADCD98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1E5014-2D3E-42AA-A89D-57028ADCD98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8247E944-D4D1-414B-85A6-BD521F521430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8247E944-D4D1-414B-85A6-BD521F521430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8247E944-D4D1-414B-85A6-BD521F521430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8247E944-D4D1-414B-85A6-BD521F521430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB7C512-5056-462F-AAE4-CBBDDAF931A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB7C512-5056-462F-AAE4-CBBDDAF931A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB7C512-5056-462F-AAE4-CBBDDAF931A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB7C512-5056-462F-AAE4-CBBDDAF931A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8247E944-D4D1-414B-85A6-BD521F521430} = {C38AB173-59B9-4AB5-A08C-687B1238C144}
+		{5DB7C512-5056-462F-AAE4-CBBDDAF931A3} = {B8A11515-CAFE-43C4-8A88-1B63F961C3DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE80B4DC-D0C4-4CD8-8261-AA7CD6A1BAB2}
+	EndGlobalSection
+EndGlobal

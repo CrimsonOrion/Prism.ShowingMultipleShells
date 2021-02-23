@@ -1,0 +1,22 @@
+﻿<Window x:Class="Prism.ShowingMultipleShells.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="Shell" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Menu>
+            <MenuItem Header="Open Shell" Command="{Binding OpenShellCommand}" CommandParameter="ViewB" />
+            <MenuItem Header="Navigate To ViewA" Command="{Binding NavigateCommand}" CommandParameter="ViewA" />
+            <MenuItem Header="Navigate To ViewB" Command="{Binding NavigateCommand}" CommandParameter="ViewB" />
+        </Menu>
+
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />
+
+    </Grid>
+</Window>
